@@ -64,7 +64,7 @@ const Comment = ({
             </>
             ) : (
             <>
-                <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", borderBottom: "2px solid black", marginBottom: "5px" }}>
                 <span
                 contentEditable={false}
                 suppressContentEditableWarning={editMode}

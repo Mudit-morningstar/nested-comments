@@ -4,7 +4,7 @@
 
 .App {
   margin-top: 20px;
-  width: fit-content;
+  width: 100%;
 }
 
 .commentContainer {
@@ -13,9 +13,10 @@
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
-  width: 300px;
+  width: 75%;
   cursor: pointer;
   border-radius: 5px;
+  border: 2px solid;
 }
 
 .commentContainer:hover {
@@ -33,7 +34,7 @@
 }
 
 .inputContainer__input {
-  margin: 6px 0 0px 0;
+  margin: 6px;
   padding: 5px;
   display: flex;
   border: 1px solid lightgray;
@@ -45,7 +46,8 @@
 }
 
 .first_input {
-  margin: 0;
+  margin: 6px;
+  width: 75.5%;
 }
 
 .commentContainer > span {
@@ -53,7 +55,7 @@
 }
 
 .reply {
-  font-size: 12px;
+  font-size: 14px;
   padding: 5px;
   border-radius: 5px;
   color: #4e4e4e;
@@ -63,6 +65,7 @@
 
 .comment {
   color: #ffffff;
-  background-color: #569dff;
+  background-color: #04488c;
   letter-spacing: 0.8px;
+  padding: 6px;
 }
