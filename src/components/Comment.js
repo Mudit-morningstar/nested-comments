@@ -3,6 +3,9 @@ import Action from "./Action";
 import { ReactComponent as DownArrow } from "../assets/down-arrow.svg";
 import { ReactComponent as UpArrow } from "../assets/up-arrow.svg";
 import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+
+dayjs.extend(relativeTime);
 
 const Comment = ({
     insertCommentHandler,
@@ -81,7 +84,7 @@ const Comment = ({
                 ref={inputRef}
                 style={{ fontSize: "12px"}}
                 >
-                {dayjs(comment.timestamp).fromNow(true)}
+                {dayjs(comment.timestamp).fromNow(true) }
                 </span>
                 </div>
                 <span
