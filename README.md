@@ -1,7 +1,6 @@
 # nested-comments
 
-    This is a nested comments application which manages and renders hierarchical comments using React components and custom 
-    hooks.
+    This is a nested comments application which manages and renders hierarchical comments using React components and custom hooks.
 
 # Instruction to Start: 
 

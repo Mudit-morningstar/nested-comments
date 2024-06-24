@@ -3,24 +3,23 @@
 }
 
 .App {
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
+  height: 100%;
 }
 
 .commentContainer {
   margin-top: 6px;
-  background-color: #d3d3d3e0;
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
   width: 75%;
   cursor: pointer;
   border-radius: 5px;
-  border: 2px solid;
 }
 
 .commentContainer:hover {
-  background-color: #d3d3d3bf;
+  background-color: #e7e7e7;
 }
 
 .inputContainer {
@@ -37,12 +36,11 @@
   margin: 6px;
   padding: 5px;
   display: flex;
-  border: 1px solid lightgray;
+  border: 2px solid;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #e7e7e7;
 }
 
 .first_input {
